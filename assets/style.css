@@ -1,0 +1,35 @@
+body{
+	background-color: rgb(255, 255, 232);
+}
+
+section{
+	font-size: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+div{
+	border: darkgreen 1px solid;
+	overflow: visible;
+	background-color: green;
+}
+
+div:hover{
+	font-size: 100px;
+	font-style: oblique;
+	z-index: 100;
+	background-color: yellow;
+}
+
+a{
+	color: black;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+	font-style: italic;
+	text-decoration: underline;
+}
